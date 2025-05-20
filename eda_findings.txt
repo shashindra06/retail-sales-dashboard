@@ -1,0 +1,10 @@
+Key EDA Findings
+- Total Revenue: £17,743,429.18
+- Unique Customers: 5,878
+- Average Order Value: £479.95
+- Total Orders: 36,969
+- Top Customer ID: 18102, Revenue: £608,821.65
+- Country Sales: UK dominates with ~83% (£14,723,148), followed by EIRE (£621,631), Netherlands (£554,232).
+- Top Products: "REGENCY CAKESTAND 3 TIER" (£286,486) leads, indicating strong demand for premium gift-ware.
+- Monthly Trends: Sales peak in 2010-11 (£1,172,336), driven by holiday shopping.
+- Outliers: ~370 orders exceed ~£3,705, representing high-value transactions. ~386 items priced below £0.00 may need profitability review.
