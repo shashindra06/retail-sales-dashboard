@@ -64,3 +64,16 @@ top_customers = filtered_df.groupby('Customer ID')['TotalPrice'].sum().sort_valu
 fig4 = px.bar(x=top_customers.values, y=top_customers.index, title='Top 5 Customers by Revenue')
 fig4.update_layout(xaxis_title='Total Spent (£)', yaxis_title='Customer ID')
 st.plotly_chart(fig4, use_container_width=True)
+
+
+
+# Insights
+st.header("Key Insights")
+uk_share = filtered_df[filtered_df['Country'] == 'United Kingdom']['TotalPrice'].sum() / total_revenue if total_revenue > 0 else 0
+peak_month = monthly_sales.iloc[monthly_sales['TotalPrice'].idxmax()]['InvoiceDate'] if not monthly_sales.empty else "N/A"
+peak_sales = monthly_sales['TotalPrice'].max() if not monthly_sales.empty else 0
+top_product_share = top_products.iloc[0] / total_revenue if total_revenue > 0 else 0
+st.write(f"- The UK accounts for ~{uk_share:.0%} of total sales in the selected period.")
+st.write(f"- Sales peaked in {peak_month} (£{peak_sales:,.0f}), likely due to holiday shopping.")
+st.write(f"- Top product ('{top_products.index[0]}') contributes ~{top_product_share:.0%} of revenue; consider increasing stock.")
+st.write(f"- Top customers drive significant revenue; target with loyalty programs.")
