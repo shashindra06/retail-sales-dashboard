@@ -8,3 +8,16 @@ Key EDA Findings
 - Top Products: "REGENCY CAKESTAND 3 TIER" (£286,486) leads, indicating strong demand for premium gift-ware.
 - Monthly Trends: Sales peak in 2010-11 (£1,172,336), driven by holiday shopping.
 - Outliers: ~370 orders exceed ~£3,705, representing high-value transactions. ~386 items priced below £0.00 may need profitability review.
+
+Business Recommendations
+
+Market Expansion: UK contributes ~83% (£14,723,148) of revenue, indicating over-reliance.
+ Allocate a dedicated marketing budget to EIRE (£621,631 sales) and Netherlands (£554,232) to grow non-UK market share by 5-10% annually.
+Inventory Optimization: "REGENCY CAKESTAND 3 TIER" (£286,486) is the top-selling product.
+ Increase stock levels for top 5-10 performing products by 15-20% to capitalize on consistent demand, particularly in peak seasons.
+Customer Retention: Top Customer ID 18102 with £608,821.65 revenue highlights the impact of high-value clients.
+ Implement a tiered loyalty program or exclusive offers for top customers to enhance retention and encourage repeat purchases, aiming for a 2-3% increase in their average spend.
+Seasonal Strategy: Sales peak in November 2010-11 (£1,172,336).
+ Develop targeted promotional campaigns and introduce limited-time holiday bundles specifically for Q4 (October-December) to maximize sales during the highest-demand period, aiming for a 10% year-over-year growth in Q4 revenue.
+Profitability Review: Items priced below £0.00 (e.g., negative quantities like cancellations) and "Outliers: ~386 items priced below £0.00" need attention.
+ Analyze profitability of low-priced items (if any actual low-priced, not negative, items exist) and consider strategic bundling with higher-margin products or discontinuing underperforming SKUs to improve overall profitability.
