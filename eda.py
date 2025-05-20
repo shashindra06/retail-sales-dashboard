@@ -81,3 +81,16 @@ plt.tight_layout()
 plt.savefig('plots/order_value_distribution.png')
 plt.close()
 print("Saved plot: order_value_distribution.png")
+
+
+# Outlier analysis
+# High-value orders (top 1%)
+order_values = df.groupby('Invoice')['TotalPrice'].sum()
+high_value_orders = order_values[order_values > order_values.quantile(0.99)]
+print("\nTop 1% Orders by Value ({} orders):".format(len(high_value_orders)))
+print(df[df['Invoice'].isin(high_value_orders.index)][['Invoice', 'Customer ID', 'TotalPrice']].drop_duplicates().head())
+
+# Low-price items (bottom 1%)
+low_price_items = df[df['Price'] < df['Price'].quantile(0.01)][['Description', 'Price']].drop_duplicates()
+print("\nLow-Price Items ({} items):".format(len(low_price_items)))
+print(low_price_items.head())
