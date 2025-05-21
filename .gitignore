@@ -2,3 +2,4 @@ venv/
 *.xlsx
 *.db
 plots/
+online_retail.csv
